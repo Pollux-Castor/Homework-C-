@@ -18,3 +18,4 @@ else
 {
    Console.WriteLine($"Число {a} меньше числа {b}");
 }
+
