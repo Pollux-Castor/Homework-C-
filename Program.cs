@@ -27,27 +27,47 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.WriteLine("Введите число 1");
+// Console.WriteLine("Введите число 1");
+// int a=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число 2");
+// int b=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число 3");
+// int c=Convert.ToInt32(Console.ReadLine());
+
+// int max=a;
+
+// if (a>b)
+// {
+// max=a;
+// }  
+// else 
+// max=b;
+// if (b>c)
+// {
+// max=b;
+// }
+// else
+// max=c;
+
+// Console.WriteLine($"Число {max} является максимальным");
+
+// ---------------------------------------------------------------------------------------------
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число 
+// чётным (делится ли оно на два без остатка).
+
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+Console.WriteLine("Введите число");
 int a=Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число 2");
-int b=Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число 3");
-int c=Convert.ToInt32(Console.ReadLine());
-
-int max=a;
-
-if (a>b)
+int n;
+n=(a%2);
+if (n== 0)
 {
-max=a;
-}  
-else 
-max=b;
-if (b>c)
-{
-max=b;
+    Console.WriteLine("Число четное");
 }
-else
-max=c;
-
-Console.WriteLine($"Число {max} является максимальным");
+else 
+    Console.WriteLine("Число не четное");
 
